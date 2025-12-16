@@ -5,6 +5,8 @@ This repository demonstrates an end-to-end A/B experimentation workflow, focused
 
 The core output is a decision-first experiment readout supported by robust statistical analysis, including MDE and power calculations and optional CUPED variance reduction.
 
+**Decision Summary:** The treatment shows a statistically significant positive lift with adequate power; results support rollout subject to guardrail monitoring.
+
 ---
 
 ## Business Problem
@@ -58,7 +60,7 @@ The analysis follows a standard Big Tech experimentation pipeline:
   `outputs/experiment_summary.md`  
   A concise written summary highlighting experimental design, results, and decision implications.
 
-- **Experiment Readout Table**  
+- **Experiment Readout Table:**  
   - Mean(T), Mean(C)  
   - Difference and standard error  
   - 95% confidence interval  
