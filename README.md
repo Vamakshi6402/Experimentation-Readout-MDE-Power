@@ -47,7 +47,18 @@ The analysis follows a standard Big Tech experimentation pipeline:
 ---
 
 ## Key Outputs
-- Experiment Readout Table  
+
+**Primary Artifacts (Start Here):**
+
+- **Experiment Readout (HTML):**  
+  `outputs/experiment_readout_mde_power_cuped.html`  
+  A decision-focused experiment handout summarizing treatment effect, CUPED adjustment, MDE, and statistical power.
+
+- **Executive Summary (Markdown):**  
+  `outputs/experiment_summary.md`  
+  A concise written summary highlighting experimental design, results, and decision implications.
+
+- **Experiment Readout Table**  
   - Mean(T), Mean(C)  
   - Difference and standard error  
   - 95% confidence interval  
